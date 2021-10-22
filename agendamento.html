@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/30836ed2bd.js" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+        <script type="text/javascript">
+            (function() {
+            emailjs.init("user_2drAGPw4VgYRZFz4AyFRm");
+            })();
+        </script>
+        
+
+        <title>DR. CLÁUDIO CESAR DE FREITAS</title>
+        <link rel="shortcut icon" href="img/favicon.ico.ico" />
+
+    </head>
+    <body>
+        <header>
+            <div class="view">
+                <div class="conteudo-header">
+                    <a href="index.html"><img src="./img/logo_colorido_cortado.png" alt="logo"></a>
+                    <button class="botao-hamburguer">&#8801;</button>
+                    <div class="conteudo-header-pc">
+                        <ul>
+                            <a href="index.html"><li>Inicio</li></a>
+                            <a href="nossos-serviços.html"><li>Nossos Serviços</li></a>
+                            <a href="agendamento.html" style="font-weight: 900;"><li>Agendar Consulta</li></a>
+                            <a href="album.html"><li>Álbum</li></a>
+                        </ul>
+                    </div>
+                </div>    
+            </div>
+        </header>
+        <main class="fundo-cinza">
+            <div class="view" id="agendamento">
+                
+                
+                <form>
+                    <div class="titulo-pagina"><h1>Pré-agendar consulta:</h1> <i class="far fa-question-circle abrir-ajuda"></i></div>
+                    <h2>&#9312;  Comece preenchendo alguns dados.</h2>
+                    <div class="form"><input id="nome" type="text" placeholder="Nome"></div>
+                    <div class="form"><input type="number" placeholder="Idade"></div>
+                        <div class="form"><label>Sexo:</label>
+                        <select placeholder="--" id="sexo">
+                            <option value="none" style="color:#bed9eb;">--</option>
+                            <option value="feminino">Feminino</option>
+                            <option value="masculino">Masculino</option>
+                        </select></div>
+                    
+                    
+                    <h2>&#9313;  Agora informe sua disponibilidade.</h2>
+                    <div class="form-checkbox">
+                        <div><input type="checkbox" name="dia-semana" value="segunda"><label>Seg</label></div>
+                        <div><input type="checkbox" name="dia-semana" value="terça"><label>Ter</label></div>
+                        <div><input type="checkbox" name="dia-semana" value="quarta"><label>Qua</label></div>
+                        <div><input type="checkbox" name="dia-semana" value="quinta"><label>Qui</label></div>
+                        <div><input type="checkbox" name="dia-semana" value="sexta"><label>Sex</label></div>
+                        
+                    </div>
+                    
+                    <div class="form">
+                    <label>Preferencia de horario:</label>
+                        <select style="width: 40%;" id="horario">
+                            <option value="none">--</option>
+                            <option value="9h">9:00</option>
+                            <option value="10h">10:00</option>
+                            <option value="11h">11:00</option>
+                            <option value="12h">12:00</option>
+                            <option value="13h">14:00</option>
+                            <option value="14h">15:00</option>
+                            <option value="15h">16:00</option>
+                        </select>
+                    </div>
+
+                    <h2 class="form">&#9314;  Deixe seus meios de contato, por onde entraremos em contato</h2>
+                    <div class="form"><input type="tel" placeholder="Telefone/celular" name="fone"></div>
+                    <div class="form"><input type="email" placeholder="email (opcional)" name="email"></div>
+                    <div class="form">
+                        <label>Preferencia para contato:</label>
+                            <select style="width: 32%;" id="pref-ctt">
+                                <option value="none">--</option>
+                                <option value="whatsapp">Whatsapp</option>
+                                <option value="email">Email</option>
+                                <option value="ligação">Telefone/Celular</option>
+                            </select>
+                    </div>
+
+                    <h2>&#9315;  Informações adicionais (opcional)</h2>
+                    <div class="form"><textarea name="infoAdd"></textarea></div>
+
+                    <button id="enviar-dados" type="submit">Enviar dados</button>
+                    <h2>&#9316;  Agora é só aguardar nosso retorno :)</h2>
+                </form>
+                <h3>Duvidas? Clique aqui <i class="far fa-question-circle abrir-ajuda"></i></h3>
+                
+
+
+            </div>
+        </main>
+
+        <footer>
+            <div class="view">
+                <div class="logo-footer"><img src="./img/logo_colorido_cortado.png" alt="logo-branco"></div>
+                <div class="contatos">
+                    <ul>
+                        <li><img src="./img/fonesymbol.png">(11)4123-5678</li>
+                        <li><img src="./img/wppsymbol.png">(11)92839-1212</li>
+                        <li><img src="./img/emailsymbol.png">drclaudio@email.com</li>
+                        
+                    </ul>    
+                </div>
+
+            </div>
+        </footer>
+
+        <div class="menu">
+            <ul>
+                <a href="index.html"><li>Inicio</li></a>
+                <a href="nossos-serviços.html"><li>Nossos Serviços</li></a>
+                <a href="agendamento.html" style="font-weight: 900;"><li>Agendar Consulta</li></a>
+                <a href="album.html"><li>Álbum</li></a>
+            </ul>
+        </div>
+
+        <div class="menu-grid">
+            <div class="menu-ajuda">
+                <div style="display: flex; justify-content: space-between;"><h1>Precisa de ajuda?</h1><i style="font-size: 25px;" class="far fa-times-circle fechar-ajuda"></i></div>
+            </div>
+        </div>
+
+        <script src="./js/menu.js" async></script>
+        <script src="js/email.js" async></script>
+    </body>
+
+
+</html>
